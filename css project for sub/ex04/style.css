@@ -1,0 +1,43 @@
+*, *::before, *::after {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f9;
+    padding: 40px;
+    color: #333;
+}
+
+h1 {
+    margin-bottom: 30px;
+}
+
+.comparison-container {
+    display: flex;
+    gap: 40px;
+    flex-wrap: wrap;
+}
+
+.box {
+    width: 300px;
+    padding: 40px;
+    border: 10px solid #333;
+    border-radius: 8px;
+    background-color: #fff;
+    box-shadow: 0 4px 6px rgba(0,0,0,0.05);
+}
+
+.content-box {
+    box-sizing: content-box;
+    background-color: #ff6b6b;
+    color: white;
+}
+
+.border-box {
+    box-sizing: border-box;
+    background-color: #1dd1a1;
+    color: white;
+}
